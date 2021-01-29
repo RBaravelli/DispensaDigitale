@@ -1,0 +1,175 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+nav .brand-logo {
+	color: white;
+	font-family: 'Pacifico', cursive;  
+}
+
+nav .nav-wrapper {
+	padding: 0 50px;
+}
+
+p {
+  line-height: 2em;
+}
+
+.sidenav-trigger {
+  color: #fff;
+}
+
+button
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.section-intro {
+	height: 100%;
+	width: 100%;
+}
+.header-intro {
+	margin-top: 20%;
+	font-size: 4em;
+}
+
+.header-subtitle {
+	margin-top: 3%;
+	font-size: 2em;
+}
+
+.btn-servizio {
+width: 30%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav .nav-wrapper {
+	padding: 0 30px;
+  }
+}
+
+.col-servizio {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#servizio h5 {
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+#servizio p {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+
+.col-applicazioni {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.registrazione-icon {
+	font-size: 7em;
+	margin-top: 60px;	
+}
+
+.registrazione-subtitle {
+	font-size: 7em;
+	margin-top: 60px;	
+}
+
+.btn-registrazione {
+	width: 30%;
+}
+.col-registrazione {
+	margin-top: 2px;
+	margin-bottom: 100px;
+}	
+
+#registrazione .header {
+	margin-top: 60px;
+	margin-bottom: 20px;
+}	
+#registrazione .header-subtitle {
+	margin-top: 2px;
+	margin-bottom: 100px;
+}
+.section-registrazione {
+	high: 100%;
+	width: 100%;
+}
+
+.assistenza-icon {
+	font-size: 7em;
+	margin-top: 60px;	
+}
+
+.assistenza-subtitle {
+	font-size: 7em;
+	margin-top: 60px;	
+}
+
+.btn-assistenza {
+width: 30%;
+}	
+.col-assistenza {
+	margin-top: 2px;
+	margin-bottom: 100px;
+}	
+
+#assistenza .header {
+	margin-top: 60px;
+	margin-bottom: 20px;
+}	
+#assistenza .header-subtitle {
+	margin-top: 2px;
+	margin-bottom: 100px;
+}
+
+.page-footer {
+  margin: 0;
+  background-color: #3D5467;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 20px;
+}
+.social-icon:hover {
+	color: #d54242
+}
+
