@@ -14,8 +14,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">   
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300&display=swap" rel="stylesheet"> 
-  <!-- AWESOME FONTS -->
-  <link href="fontawesome-free/css/all.css" type="text/css" rel="stylesheet">  
 <!-- Begin Sendinblue Form -->
 <!-- START - We recommend to place the below code in head tag of your website html  -->
 <style>
@@ -57,22 +55,23 @@
 <body>
 
  <!-- FIXED NAVBAR -->
-  <div class="navbar-fixed">
+  <div id="nav" class="navbar-fixed">
     <nav>
       <div class="nav-wrapper red darken-4">
         <a href="#index-banner" class="brand-logo">La dispensa digitale</a>
-		<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
+        <a href="#!" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		    <ul class="right hide-on-med-and-down">
           <li><a href="#servizio">Servizio</a></li>
-		  <li><a href="#applicazioni">Applicazioni</a></li>
+		      <li><a href="#applicazioni">Applicazioni</a></li>
           <li><a href="#registrazione">Newsletter</a></li>
-		  <li><a href="#assistenza">Assistenza</a></li>
+		      <li><a href="#assistenza">Assistenza</a></li>
         </ul>
-		  <ul class="sidenav" id="mobile-demo">
-		  <li><a href="#servizio">Servizio</a></li>
-		  <li><a href="#applicazioni">Applicazioni</a></li>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#applicazioni">Applicazioni</a></li>
           <li><a href="#registrazione">Newsletter</a></li>
-		  <li><a href="#assistenza">Assistenza</a></li>
+          <li><a href="#assistenza">Assistenza</a></li>
+        </ul>
       </div>
     </nav>
   </div>
@@ -86,9 +85,9 @@
         <div class="row center">
           <h5 class="header-subtitle white-text col s12 light">Scopri gli strumenti ICT essenziali per il tuo lavoro.</h5>
         </div>
-		<br>
+        <br>
         <div class="row center">
-          <a href="#servizio" id="download-button" class="btn-large btn-servizio waves-effect waves-light red darken-4 btn-small"><i class="material-icons right">open_in_browser</i>Procedi</a>
+          <a href="#servizio" id="download-button" class="btn-large btn-intro waves-effect waves-light red darken-4 btn-small"><i class="material-icons right">open_in_browser</i>Vai</a>
         </div>
         <br><br>
       </div>
@@ -301,9 +300,8 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
   </body>
 </html>
